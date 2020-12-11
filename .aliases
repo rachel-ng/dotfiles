@@ -1,0 +1,159 @@
+#!/usr/bin/env bash
+
+# quick edit bash
+alias bash-r="source ~/.bash_profile"
+alias bash-e="vim ~/.bash_profile"
+alias bash-c="cat ~/.bash_profile"
+
+# quick edit aliases
+alias alias-e="vim ~/.aliases"
+alias alias-c="cat ~/.aliases"
+
+# allow aliases to be sudo-ed
+alias sudo='sudo '
+
+
+
+# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# Clean up LaunchServices to remove duplicates in the “Open With” menu
+alias lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+
+# Recursively delete `.DS_Store` files
+alias dstore="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Empty the Trash on all mounted volumes and the main HDD.
+# Also, clear Apple’s System Logs to improve shell startup speed.
+# Finally, clear download history from quarantine. https://mths.be/bum
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
+
+alias spacer="defaults write com.apple.dock persistent-apps -array-add '{\"tile-type\"=\"spacer-tile\";}'; killall Dock"
+
+
+alias f='open -a Finder ./'
+alias rm=trash
+alias mv="mv -i"
+alias cp="cp -i"
+alias c="clear"
+alias hosts="sudo vim /etc/hosts"
+
+
+# mkdir and cd in
+mkd () { mkdir -p "$1" && cd "$1"; }
+
+# open in quick look
+ql () { qlmanage -p "$*" >& /dev/null; }
+
+
+xman() {
+    open x-man-page://$@
+}
+
+pman() {
+    man -t $@ | open -f -a "Preview"
+}
+
+# prints the path of the front finder window. desktop if no window open
+# http://scriptingosx.com/2017/02/terminal-finder-interaction/
+# https://scriptingosx.com/2017/05/configuring-bash-with-aliases-and-functions/
+function pwdf () {
+    osascript <<EOS
+        tell application "Finder"
+            if (count of Finder windows) is 0 then
+                set dir to (desktop as alias)
+            else
+                set dir to ((target of Finder window 1) as alias)
+            end if
+            return POSIX path of dir
+        end tell
+EOS
+}
+
+# cd to finder folder
+alias cdf='pwdf; cd "$(pwdf)"'
+
+
+
+
+# python venv
+alias kh=". ~/Documents/kh/bin/activate"
+
+
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+
+
+docs() {
+    cd ~/Documents/$*
+}
+
+alias txtbks="cd ~/Documents/txtbks; open ../txtbks; ls"
+alias 235="cd ~/Documents/assignments; ls"
+alias 2c4s="cd ~/Documents/2\ cool\ 4\ skool/; ls"
+alias cs="cd ~/Documents/2\ cool\ 4\ skool/cs335; ls"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+
+# git
+alias ginit='f(){git init && git commit -m "init" && git branch -M main && git remote add origin git@github.com:rachel-ng/"$1".git && git push -u origin main; unset -f f; }; f'
+
+alias status="git status"
+alias add="git add "
+alias pull="git pull"
+alias push=gitpush
+
+commit() {
+    git commit -m "$*"
+}
+
+gitpush() {
+    git pull
+    git commit -m "$*"
+    git push
+}
+
+gitclone() {
+  git_dir="$(basename "$1" .git)"
+  git_dir_resolved=${2:-$git_dir}
+  git clone "$@" && cd "$git_dir_resolved";
+}
+
+alias clone=gitclone
+
+
+
+
+alias shiny="fortune | cowsay | lolcat"
+alias note2self="fortune | boxes -a c -d parchment | lolcat"
+alias cat4tune="fortune | boxes -a c -d cat | lolcat"
+
+
+
+# Stuff I never really use but cannot delete either because of http://xkcd.com/530/
+alias stfu="osascript -e 'set volume output muted true'"
+alias pumpitup="osascript -e 'set volume output volume 100'"
+
+# Kill all the tabs in Chrome to free up memory
+# [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
+alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
+
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec ${SHELL} -l"
+
+# Print each PATH entry on a separate line
+alias path='echo -e ${PATH//:/\\n}'
+
+
+

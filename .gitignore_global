@@ -1,0 +1,17 @@
+*~
+.*.swp
+
+# folder view config files
+.DS_Store
+Desktop.ini
+
+# thumbnail cache files
+._*
+Thumbs.db
+
+# files on external disks
+.Spotlight-V100
+.Trashes
+
+*.pyc
+

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# vim superiority  
+export EDITOR='vim';
+
+# ignore zsh warning 
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
+
+
+
+

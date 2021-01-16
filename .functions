@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# mkdir and cd in
+mkd () { mkdir -p "$1" && cd "$1"; }
+
+# prints the path of the front finder window. desktop if no window open
+# http://scriptingosx.com/2017/02/terminal-finder-interaction/
+# https://scriptingosx.com/2017/05/configuring-bash-with-aliases-and-functions/
+function pwdf () {
+    osascript <<EOS
+        tell application "Finder"
+            if (count of Finder windows) is 0 then
+                set dir to (desktop as alias)
+            else
+                set dir to ((target of Finder window 1) as alias)
+            end if
+            return POSIX path of dir
+        end tell
+EOS
+}
+

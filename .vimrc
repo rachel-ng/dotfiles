@@ -13,6 +13,7 @@ colorscheme solarized
 set autoindent 
 set wrap
 
+set ignorecase
 set incsearch
 set hlsearch
 

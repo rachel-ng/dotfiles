@@ -5,9 +5,16 @@ alias bash-r="source ~/.bash_profile"
 alias bash-e="vim ~/.bash_profile"
 alias bash-c="cat ~/.bash_profile"
 
+alias dotfiles="cd ~/Documents/dotfiles"
+alias df="dotfiles "
+alias df-e="vim ~/Documents/dotfiles/.aliases"
+alias df-r="source  ~/Documents/dotfiles/bootstrap.sh -f"
+
+alias aliases="alias"
+
 # quick edit aliases
-alias alias-e="vim ~/.aliases"
-alias alias-c="cat ~/.aliases"
+alias alias-e="df-e"
+alias alias-c="cat ~/Documents/dotfiles/.aliases"
 
 # allow aliases to be sudo-ed
 alias sudo='sudo '
@@ -31,7 +38,10 @@ alias dstore="find . -type f -name '*.DS_Store' -ls -delete"
 # Finally, clear download history from quarantine. https://mths.be/bum
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl; sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'"
 
+alias oa="open -a "
+
 alias spacer="defaults write com.apple.dock persistent-apps -array-add '{\"tile-type\"=\"spacer-tile\";}'; killall Dock"
+
 
 
 alias f='open -a Finder ./'
@@ -40,6 +50,11 @@ alias mv="mv -i"
 alias cp="cp -i"
 alias c="clear"
 alias hosts="sudo vim /etc/hosts"
+
+alias la="ls -la"
+
+
+
 
 
 # mkdir and cd in
@@ -81,6 +96,8 @@ alias cdf='pwdf; cd "$(pwdf)"'
 
 # python venv
 alias kh=". ~/Documents/kh/bin/activate"
+alias calc="bc -l"
+
 
 
 alias ..='cd ..'
@@ -98,6 +115,7 @@ alias 235="cd ~/Documents/assignments; ls"
 alias 2c4s="cd ~/Documents/2\ cool\ 4\ skool/; ls"
 alias cs="cd ~/Documents/2\ cool\ 4\ skool/cs335; ls"
 
+
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
@@ -110,6 +128,7 @@ alias status="git status"
 alias add="git add "
 alias pull="git pull"
 alias push=gitpush
+alias clone=gitclone
 
 commit() {
     git commit -m "$*"
@@ -127,7 +146,6 @@ gitclone() {
   git clone "$@" && cd "$git_dir_resolved";
 }
 
-alias clone=gitclone
 
 
 
@@ -136,6 +154,53 @@ alias shiny="fortune | cowsay | lolcat"
 alias note2self="fortune | boxes -a c -d parchment | lolcat"
 alias cat4tune="fortune | boxes -a c -d cat | lolcat"
 
+
+# converts and saves youtube video to mp3
+function ytmp3() {
+  youtube-dl --no-check-certificate --restrict-filenames --extract-audio --audio-format mp3 -o '~/Downloads/yt/%(title)s.%(ext)s' $1
+}
+
+alias msg="open -a 'Google Chrome' 'https://www.messenger.com/'"
+
+function cal(){
+    if [ "$1" = "-w" ]; then
+        open -a 'Google Chrome' 'https://calendar.google.com/calendar/u/0/r/week'
+    elif [ "$1" = "-m" ]; then
+        open -a 'Google Chrome' 'https://calendar.google.com/calendar/u/0/r/month'
+    else 
+        open -a 'Google Chrome' 'https://calendar.google.com/'
+    fi
+}
+
+function mail(){
+    if [ "$1" = "-s" ]; then
+        open -a 'Safari' 'https://outlook.office.com/'
+    elif [ "$1" = "-o" ]; then
+        open -a 'Google Chrome' 'https://outlook.com/'
+    else 
+        open -a 'Google Chrome' 'https://mail.google.com/'
+    fi
+}
+
+function basic {
+  open -a 'Google Chrome' 'https://www.messenger.com/'
+  open -a 'Google Chrome' 'https://calendar.google.com/'
+  open -a 'Google Chrome' 'https://mail.google.com/'
+  open -a 'Safari' 'https://outlook.office.com/'
+}
+
+function rc() {
+    if [ "$1" = "-o" ]; then
+        open -a "Reminders"
+        open -a "Calendar"
+    elif [ "$1" = "-k" ]; then
+        killall Reminders
+        killall Calendar
+    else 
+        open -a "Reminders"
+        open -a "Calendar"
+    fi
+}
 
 
 # Stuff I never really use but cannot delete either because of http://xkcd.com/530/

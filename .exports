@@ -10,6 +10,6 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # fix ssl certificate error
 # https://cxc.cfa.harvard.edu/ciao/bugs/python.html
-# export SSL_CERT_FILE=/etc/ssl/cert.pem
-# export SSL_CERT_DIR=/etc/ssl/certs
+export SSL_CERT_FILE=/etc/ssl/cert.pem
+export SSL_CERT_DIR=/etc/ssl/certs
 

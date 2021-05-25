@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-# vim superiority  
-export EDITOR='vim';
-
-
 # ignore zsh warning 
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
@@ -12,4 +8,15 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 # https://cxc.cfa.harvard.edu/ciao/bugs/python.html
 export SSL_CERT_FILE=/etc/ssl/cert.pem
 export SSL_CERT_DIR=/etc/ssl/certs
+
+
+
+# For compilers to find libffi you may need to set:
+export LDFLAGS="-L/usr/local/opt/libffi/lib"
+export CPPFLAGS="-I/usr/local/opt/libffi/include"
+
+# For pkg-config to find libffi you may need to set:
+export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig"
+
+
 

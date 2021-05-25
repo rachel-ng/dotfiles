@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+
+# Setting PATH for Python 2.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+export PATH
+
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+
+export PATH="$HOME/homebrew/bin:$PATH"
+
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
+
+
+

@@ -9,7 +9,7 @@ function doIt() {
 		--exclude ".swp" \
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
-		--exclude "LICENSE-MIT.txt" \
+		--exclude "colors.sh" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }

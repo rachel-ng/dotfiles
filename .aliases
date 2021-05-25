@@ -8,7 +8,7 @@ alias bash-c="cat ~/.bash_profile"
 alias dotfiles="cd ~/Documents/dotfiles"
 alias df="dotfiles "
 alias df-e="vim ~/Documents/dotfiles/.aliases"
-alias df-r="source  ~/Documents/dotfiles/bootstrap.sh -f"
+alias df-r="source  ~/Documents/dotfiles/bootstrap.sh -f; cd -"
 
 alias aliases="alias"
 
@@ -20,9 +20,10 @@ alias alias-c="cat ~/Documents/dotfiles/.aliases"
 alias sudo='sudo '
 
 
-
 # Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
+alias cupdate='brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
+alias update='sudo softwareupdate -i -a; cupdate'
+alias housekeeping='dstore; cupdate'
 
 # Flush Directory Service cache
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
@@ -48,10 +49,11 @@ alias f='open -a Finder ./'
 alias rm=trash
 alias mv="mv -i"
 alias cp="cp -i"
-alias c="clear"
+#alias c="clear"
 alias hosts="sudo vim /etc/hosts"
 
 alias la="ls -la"
+alias LS="sl"
 
 
 
@@ -72,22 +74,6 @@ pman() {
     man -t $@ | open -f -a "Preview"
 }
 
-# prints the path of the front finder window. desktop if no window open
-# http://scriptingosx.com/2017/02/terminal-finder-interaction/
-# https://scriptingosx.com/2017/05/configuring-bash-with-aliases-and-functions/
-function pwdf () {
-    osascript <<EOS
-        tell application "Finder"
-            if (count of Finder windows) is 0 then
-                set dir to (desktop as alias)
-            else
-                set dir to ((target of Finder window 1) as alias)
-            end if
-            return POSIX path of dir
-        end tell
-EOS
-}
-
 # cd to finder folder
 alias cdf='pwdf; cd "$(pwdf)"'
 
@@ -96,6 +82,8 @@ alias cdf='pwdf; cd "$(pwdf)"'
 
 # python venv
 alias kh=". ~/Documents/kh/bin/activate"
+alias v=". ~/Documents/v/bin/activate"
+
 alias calc="bc -l"
 
 
@@ -110,10 +98,9 @@ docs() {
     cd ~/Documents/$*
 }
 
-alias txtbks="cd ~/Documents/txtbks; open ../txtbks; ls"
-alias 235="cd ~/Documents/assignments; ls"
+alias txtbks="cd ~/Documents/Textbooks; open ../Textbooks; ls"
 alias 2c4s="cd ~/Documents/2\ cool\ 4\ skool/; ls"
-alias cs="cd ~/Documents/2\ cool\ 4\ skool/cs335; ls"
+
 
 
 # Show/hide hidden files in Finder
@@ -153,12 +140,7 @@ gitclone() {
 alias shiny="fortune | cowsay | lolcat"
 alias note2self="fortune | boxes -a c -d parchment | lolcat"
 alias cat4tune="fortune | boxes -a c -d cat | lolcat"
-
-
-# converts and saves youtube video to mp3
-function ytmp3() {
-  youtube-dl --no-check-certificate --restrict-filenames --extract-audio --audio-format mp3 -o '~/Downloads/yt/%(title)s.%(ext)s' $1
-}
+alias weather="curl http://wttr.in/"
 
 alias msg="open -a 'Google Chrome' 'https://www.messenger.com/'"
 
@@ -220,5 +202,5 @@ alias reload="exec ${SHELL} -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-
+alias testcolors="msgcat --color=test"
 

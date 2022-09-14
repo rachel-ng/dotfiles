@@ -117,9 +117,11 @@
 
 &nbsp;
 
-## Social Media 
+## Site Modifications
 
 [Reddit Enhancement Suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb)
+
+[New XKit](https://chrome.google.com/webstore/detail/new-xkit/inobiceghmpkaklcknpniboilbjmlald) &nbsp; <sub><sup>tumblr</sup></sub>
 
 
 

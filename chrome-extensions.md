@@ -33,6 +33,15 @@
 [Video Speed Control](https://chrome.google.com/webstore/detail/video-speed-control/aejbmaihhlajphnlcdbojkjbdckkfdki)  
 <sub>html5 videos; type, drag, or increment speed</sub>
 
+[Typio](https://chrome.google.com/webstore/detail/typio-form-recovery/djkbihbnjhkjahbhjaadbepppbpoedaa)  
+<sub>form recovery</sub>
+
+[Docs Online Viewer](https://chrome.google.com/webstore/detail/docs-online-viewer/gmpljdlgcdkljlppaekciacdmdlhfeon)  
+<sub>lets you view files in browser (doc, ppt, xls, etc.) without downloading</sub>
+
+[Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab)  
+<sub>image viewer</sub>
+
 
 ### Extension Management 
 
@@ -65,6 +74,11 @@
 
 [Fontanello](https://chrome.google.com/webstore/detail/fontanello/jdlhfjlpaijjhklfadlhbbmpjfddkglc)  
 <sub>find font by right clicking</sub>
+
+[Distill Web Monitor](https://chrome.google.com/webstore/detail/distill-web-monitor/inlikjemeeknofckkjolnjbpehgadgge)  
+<sub>monitor sites for changes</sub>
+
+[JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa)
 
 
 
@@ -103,6 +117,14 @@
 
 &nbsp;
 
+## Social Media 
+
+[Reddit Enhancement Suite](https://chrome.google.com/webstore/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb)
+
+
+
+&nbsp;
+
 ## Money 
 
 [Honey](https://chrome.google.com/webstore/detail/honey-automatic-coupons-r/bmnlcjabgnpnenekpadlanbbkooimhnj)
@@ -110,3 +132,9 @@
 [Rakuten](https://chrome.google.com/webstore/detail/rakuten-get-cash-back-for/chhjbpecpncaggjpdakmflnfcopglcmi)
 
 [Capital One Shopping](https://chrome.google.com/webstore/detail/capital-one-shopping-add/nenlahapcbofgnanklpelkaejcehkggg)
+
+
+<!-- 
+[]()  
+<sub></sub>
+-->

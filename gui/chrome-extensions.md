@@ -6,6 +6,11 @@
 
 &nbsp;
 
+<!-- 
+[]()  
+<sub></sub>
+-->
+
 ## Browser Modifications 
 
 [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) 🌟  
@@ -14,12 +19,17 @@
 [FireShot](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg) 🌟  
 <sub>screenshots of entire page with scrolling capture</sub>
 
-[Papier](https://chrome.google.com/webstore/detail/papier/hhjeaokafplhjoogdemakihhdhffacia) 🌟  
-<sub>new tab of choice</sub> 
-
 [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)  
 <sub>userscript manager of choice</sub>
 
+
+### New Tab
+
+[Papier](https://chrome.google.com/webstore/detail/papier/hhjeaokafplhjoogdemakihhdhffacia) 🌟  
+<sub>new tab of choice</sub> 
+
+[Humble New Tab Page](https://chrome.google.com/webstore/detail/humble-new-tab-page/mfgdmpfihlmdekaclngibpjhdebndhdj)  
+<sub>customizable new tab page</sub>
 
 
 ### Quality of Life
@@ -100,7 +110,8 @@
 [Tags for Google Calendar](https://chrome.google.com/webstore/detail/tags-for-google-calendar/ncpjnjohbcgocheijdaafoidjnkpajka) 🌟  
 <sub>tagged and transparent events</sub>
 
-
+[Calendar Anonymizer](https://chrome.google.com/webstore/detail/calendar-anonymizer/ohomnpjjapfpknombeifkplihfpjdomm)  
+<sub>grays out and removes text from events</sub>
 
 &nbsp;
 

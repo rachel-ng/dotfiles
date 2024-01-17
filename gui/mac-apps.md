@@ -29,11 +29,13 @@
 &emsp;more pixel focused and has a built in color picker  
 &emsp;<sub>I don't use it as often as I should, but I paid $25 for the friends club because I think their work is super cool</sub>
 
-## Menubar 
+## Menu bar 
 
 ⋇&nbsp; [**Dato**](https://sindresorhus.com/dato) <sub><sup>[`free trial`](https://dsc.cloud/sindresorhus/Dato-3.3.4-trial-1646205511)</sup></sub>  <sub><sup>`$7`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; menu bar calendar that lets you open meetings! 
 
 ⋇&nbsp; [**Hand Mirror**](https://handmirror.app/) <sub><sup>`free/$6`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; check your camera 
+
+⋇&nbsp; [**Only Switch**](https://github.com/jacklandrin/OnlySwitch) <sub><sup>`free`</sup></sub> menu bar toggle switches + run shortcuts 
 
 <sub><sup>⬚</sup></sub>&nbsp; [**MenubarX**](https://menubarx.app/) <sub><sup>`$5`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; menu bar browser 
 

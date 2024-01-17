@@ -1,54 +1,71 @@
 # Mac Apps
 
-⋇ apps I actually use or have bought  
-<sub><sup>S</sup></sub> Setapp 
+⋇&nbsp; apps I actually use or have bought  
+
+<sub><sup>*S*</sup></sub>&nbsp; Setapp  
+&emsp;<sub>I actually no longer use Setapp - I used it for 2 months for Bartender, PixelSnap, and Hookmark</sub>
+
+<sub><sup>⬚</sup></sub>&nbsp; if there's nothing in front of it,,, that means I never actually used it and just think it's cool lol
 
 ## Web
 
-⋇ [**Arc**](https://arc.net/gift/4cb27e37) browser of choice 
+⋇&nbsp; [**Arc**](https://arc.net/gift/4cb27e37) browser of choice 
+
+[Extensions I like...](chrome-extensions.md)
 
 ## Screenshots 
 
-⋇⋇ [**CleanShot X**](https://cleanshot.com/) <sub><sup>`$30 + $20/year for updates`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; best screenshotting + recording app  
-has OCR and annotation, and tons of other cool features!   
-<sup>30% student discount for first time purchase </sup>
+⋇<sup><sup>2</sup></sup> [**CleanShot X**](https://cleanshot.com/) <sub><sup>`$30 + $20/year for updates`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; best screenshotting + recording app  
+&emsp;has OCR and annotation, gif creation, compression, and tons of other cool features!   
+&emsp;<sup>30% student discount for first-time purchase</sup>  
+&emsp;<sup>I paid for updates</sup>
 
-[**PixelSnap**](https://getpixelsnap.com/) <sub><sup>`$39`</sup></sub>  <sub><sup>`Setapp`</sup></sub> &nbsp; measure anything on the screen  
-<sup>30% student discount for first time purchase, 20% CleanShotX users </sup>
 
-[**Shottr**](https://shottr.cc/) <sub><sup>`free`</sup></sub> <sub><sup>`upgrade: $8 / $25`</sup></sub> &nbsp; like Cleanshot but free and much more basic, but more pixel focused (-$39) and with a built in color picker
+&nbsp;<sub><sup>*S*</sup></sub>&nbsp; [**PixelSnap**](https://getpixelsnap.com/) <sub><sup>`$39`</sup></sub>  <sub><sup>`Setapp`</sup></sub> &nbsp; measure anything on the screen  
+&emsp;<sup>30% student discount for first time purchase, 20% CleanShotX users </sup>  
+&emsp;<sub>used with Setapp, but honestly didn't utilize as much as I thought I would — granted I am NAWT a designer </sub>
+
+⋇&nbsp; [**Shottr**](https://shottr.cc/) <sub><sup>`free`</sup></sub> <sub><sup>`upgrade: $8 / $25`</sup></sub> &nbsp; like Cleanshot but free and more basic (no video recording or gifs)  
+&emsp;more pixel focused and has a built in color picker  
+&emsp;<sub>I don't use it as often as I should, but I paid $25 for the friends club because I think their work is super cool</sub>
 
 ## Menubar 
 
-⋇ [**Dato**](https://sindresorhus.com/dato) <sub><sup>[`free trial`](https://dsc.cloud/sindresorhus/Dato-3.3.4-trial-1646205511)</sup></sub>  <sub><sup>`$7`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; menu bar calendar that lets you open meetings! 
+⋇&nbsp; [**Dato**](https://sindresorhus.com/dato) <sub><sup>[`free trial`](https://dsc.cloud/sindresorhus/Dato-3.3.4-trial-1646205511)</sup></sub>  <sub><sup>`$7`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; menu bar calendar that lets you open meetings! 
 
-⋇ [**Hand Mirror**](https://handmirror.app/) <sub><sup>`free/$6`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; check your camera 
+⋇&nbsp; [**Hand Mirror**](https://handmirror.app/) <sub><sup>`free/$6`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; check your camera 
 
-[**MenubarX**](https://menubarx.app/) <sub><sup>`$5`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; menu bar browser 
+<sub><sup>⬚</sup></sub>&nbsp; [**MenubarX**](https://menubarx.app/) <sub><sup>`$5`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; menu bar browser 
 
 
 ### Management 
 
-<sub><sup>S</sup></sub> [**Bartender**](https://www.macbartender.com/) <sub><sup>`free trial`</sup></sub> <sub><sup>`$16`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; 
+&nbsp;<sub><sup>*S*</sup></sub>&nbsp; [**Bartender**](https://www.macbartender.com/) <sub><sup>`free trial`</sup></sub> <sub><sup>`$16`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; menu bar management  
+&emsp;<sub>used with Setapp, found it kind of clunky at times </sub>
 
 
 ## Window Management 
 
-⋇ [**Rectangle**](https://rectangleapp.com/) <sub><sup>`free`</sup></sub> &nbsp; window resizer and snapper
+⋇&nbsp; [**Rectangle**](https://rectangleapp.com/) <sub><sup>`free`</sup></sub> &nbsp; window resizer and snapper
 
-⋇ [**Swish**](https://highlyopinionated.co/swish/) <sub><sup>`free trial`</sup></sub> <sub><sup>`$16`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; trackpad window resizer and snapper  
-<sub>super cool but I'm honestly still not used to it,,, </sub>
+⋇&nbsp; [**Swish**](https://highlyopinionated.co/swish/) <sub><sup>`free trial`</sup></sub> <sub><sup>`$16`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; trackpad window resizer and snapper  
+&emsp;<sub>super cool but I'm honestly still not used to it,,, </sub>
+
 
 ## Shortcuts 
 
-[**Paletro**](https://appmakes.io/paletro) <sub><sup>`$7`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; command palette but for all apps 
+<sub><sup>⬚</sup></sub>&nbsp; [**Paletro**](https://appmakes.io/paletro) <sub><sup>`$7`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; command palette but for all apps 
+
+&nbsp;<sub><sup>*S*</sup></sub>&nbsp; [**Hookmark**](https://hookproductivity.com/) <sub><sup>`free`</sup></sub> <sub><sup>`$30 / $70`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; copy links to basically anything  
+&emsp;<sub>used with Setapp, never actually used it — conceptually, I would've found it super helpful if I was a student or regularly did research on this computer </sub>
 
 
 ## Clipboard Management 
 
-⋇ [**PastePal**](https://onmyway133.com/pastepal/) <sub><sup>`free/$15`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; universal pasteboard manager for Mac, iPhone, iPad  
+⋇&nbsp; [**PastePal**](https://onmyway133.com/pastepal/) <sub><sup>`free/$15`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; universal pasteboard manager for Mac, iPhone, iPad  
 
 
 ## Files
 
-⋇ [**Dropover**](https://dropoverapp.com/)  <sub><sup>`free trial`</sup></sub> <sub><sup>`$5`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; better drag and drop
+⋇&nbsp; [**Dropover**](https://dropoverapp.com/)  <sub><sup>`free trial`</sup></sub> <sub><sup>`$5`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; better drag and drop
+

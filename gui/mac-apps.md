@@ -16,7 +16,7 @@ has OCR and annotation, and tons of other cool features!
 [**PixelSnap**](https://getpixelsnap.com/) <sub><sup>`$39`</sup></sub>  <sub><sup>`Setapp`</sup></sub> &nbsp; measure anything on the screen  
 <sup>30% student discount for first time purchase, 20% CleanShotX users </sup>
 
-[**Shottr**](https://shottr.cc/) <sub><sup>`free`</sup></sub> &nbsp; like Cleanshot but free and much more basic, but more pixel focused (-$39) and actually lets you zoom
+[**Shottr**](https://shottr.cc/) <sub><sup>`free`</sup></sub> <sub><sup>`upgrade: $8 / $25`</sup></sub> &nbsp; like Cleanshot but free and much more basic, but more pixel focused (-$39) and with a built in color picker
 
 ## Menubar 
 
@@ -37,7 +37,7 @@ has OCR and annotation, and tons of other cool features!
 ⋇ [**Rectangle**](https://rectangleapp.com/) <sub><sup>`free`</sup></sub> &nbsp; window resizer and snapper
 
 ⋇ [**Swish**](https://highlyopinionated.co/swish/) <sub><sup>`free trial`</sup></sub> <sub><sup>`$16`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; trackpad window resizer and snapper  
-
+<sub>super cool but I'm honestly still not used to it,,, </sub>
 
 ## Shortcuts 
 

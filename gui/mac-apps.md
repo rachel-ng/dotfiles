@@ -5,7 +5,7 @@
 
 ## Web
 
-⋇ [**Arc**](https://arc.net/) browser of choice 
+⋇ [**Arc**](https://arc.net/gift/4cb27e37) browser of choice 
 
 ## Screenshots 
 

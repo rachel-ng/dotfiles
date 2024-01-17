@@ -1,5 +1,7 @@
 # Chrome Extensions
 
+I use [**Arc**](https://arc.net/gift/4cb27e37) 
+
 [chrome://extensions/](chrome://extensions/)
 
 <sub>🌟 &nbsp; if my chrome died in a fire this is what I would redownload first</sub>

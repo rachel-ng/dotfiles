@@ -35,7 +35,7 @@
 
 ⋇&nbsp; [**Hand Mirror**](https://handmirror.app/) <sub><sup>`free/$6`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; check your camera 
 
-⋇&nbsp; [**Only Switch**](https://github.com/jacklandrin/OnlySwitch) <sub><sup>`free`</sup></sub> menu bar toggle switches + run shortcuts 
+⋇&nbsp; [**Only Switch**](https://github.com/jacklandrin/OnlySwitch) <sub><sup>`free`</sup></sub> &nbsp; menu bar toggle switches + run shortcuts 
 
 <sub><sup>⬚</sup></sub>&nbsp; [**MenubarX**](https://menubarx.app/) <sub><sup>`$5`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; menu bar browser 
 

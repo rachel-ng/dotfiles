@@ -66,6 +66,8 @@
 
 ⋇&nbsp; [**PastePal**](https://onmyway133.com/pastepal/) <sub><sup>`free/$15`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; universal pasteboard manager for Mac, iPhone, iPad  
 
+⋇&nbsp; [**Clop**](https://lowtechguys.com/clop/) <sub><sup>`free/$15`</sup></sub> &nbsp; clipboard optimizer for photos, videos, pdfs
+
 
 ## Files
 
@@ -75,4 +77,4 @@
 ## Notes 
 ⋇&nbsp; [**NotesCmdr**](https://smallest.app/notescmdr/) <sub><sup>`$7.99`</sup></sub> &nbsp; markdown, slash commands, templates, *calculator*
 
-<sub><sup>⬚</sup></sub>&nbsp; [ProNotes](https://www.pronotes.app/) <sub><sup>`free`</sup></sub> <sub><sup>`$7.99/month`</sup></sub> &nbsp; formatting bar, markdown, slash commands, search, bidirectional linking 
+<sub><sup>⬚</sup></sub>&nbsp; [ProNotes](https://www.pronotes.app/) <sub><sup>`free/$7.99/month`</sup></sub> &nbsp; formatting bar, markdown, slash commands, search, bidirectional linking 

@@ -71,3 +71,8 @@
 
 ⋇&nbsp; [**Dropover**](https://dropoverapp.com/)  <sub><sup>`free trial`</sup></sub> <sub><sup>`$5`</sup></sub> <sub><sup>`Setapp`</sup></sub> &nbsp; better drag and drop
 
+
+## Notes 
+⋇&nbsp; [**NotesCmdr**](https://smallest.app/notescmdr/) <sub><sup>`$7.99`</sup></sub> &nbsp; markdown, slash commands, templates, *calculator*
+
+<sub><sup>⬚</sup></sub>&nbsp; [ProNotes](https://www.pronotes.app/) <sub><sup>`free`</sup></sub> <sub><sup>`$7.99/month`</sup></sub> &nbsp; formatting bar, markdown, slash commands, search, bidirectional linking 

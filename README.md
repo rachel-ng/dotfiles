@@ -9,3 +9,5 @@ https://github.com/tomislav/osx-terminal.app-colors-solarized/blob/master/Solari
 
 
 
+
+https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28 
